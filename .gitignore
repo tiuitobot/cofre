@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# Dados sensíveis — NUNCA commitar
+maps/
+inbox/
+outbox/
+canary/
+dry-run/
+audit/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
