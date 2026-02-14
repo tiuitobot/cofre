@@ -1,0 +1,25 @@
+{
+  "repo": "cofre",
+  "version": "0.1.0",
+  "lastUpdated": "2026-02-14T04:30",
+  "keyInfo": [
+    {
+      "id": "K001",
+      "info": "GPT-OSS-20B (via LM Studio) é o modelo escolhido para pseudonimização. Tempo: 11-20s por documento. Melhor balanço qualidade/velocidade entre os testados.",
+      "importance": "critical",
+      "status": "confirmed",
+      "date": "2026-02-05",
+      "source": "PoC testing com Bruno",
+      "context": "Testados múltiplos modelos locais. GPT-OSS-20B melhor resultado. Bruno quer acompanhar próximos passos."
+    },
+    {
+      "id": "K002",
+      "info": "Arquitetura: pseudonimização 100% local, reversível via JSON map. Sem cloud, sem API externa. Map JSON permite des-pseudonimizar quando necessário.",
+      "importance": "critical",
+      "status": "confirmed",
+      "date": "2026-02-05",
+      "source": "Design decision com Bruno",
+      "context": "Requisito fiscal — dados sensíveis não podem sair da máquina"
+    }
+  ]
+}
